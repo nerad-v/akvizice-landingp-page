@@ -24,7 +24,20 @@ const CalendlySection = () => {
             <br />
             <span className="serif-italic text-primary pt-3 inline-block">vám leží v kalendáři.</span>
           </h2>
-          <p className="text-body">15minutový hovor. Žádná smlouva. Žádný závazek.</p>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-10 mt-8 mb-12">
+            <div className="flex items-center gap-2.5 text-foreground font-medium text-base md:text-lg">
+              <CircleCheck className="w-5 h-5 text-primary" />
+              <span>15minutový hovor</span>
+            </div>
+            <div className="flex items-center gap-2.5 text-foreground font-medium text-base md:text-lg">
+              <CircleCheck className="w-5 h-5 text-primary" />
+              <span>Žádná smlouva</span>
+            </div>
+            <div className="flex items-center gap-2.5 text-foreground font-medium text-base md:text-lg">
+              <CircleCheck className="w-5 h-5 text-primary" />
+              <span>Žádný závazek</span>
+            </div>
+          </div>
         </AnimatedSection>
 
         <AnimatedSection delay={200}>
