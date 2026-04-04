@@ -45,15 +45,19 @@ const Hero = () => {
               <ArrowRight className="w-4 h-4" />
             </a>
           </div>
-          <p className="text-muted-ref text-sm mb-8">(rezervujte si 15minutový videohovor zdarma)</p>
+          <p className="text-primary/80 text-base mt-3 mb-10">(rezervujte si 15minutový videohovor zdarma)</p>
 
-          <div className="flex items-center justify-center gap-6 sm:gap-8 flex-wrap">
-            {badges.map((badge) => (
-              <span key={badge} className="inline-flex items-center gap-2 text-sm text-muted-ref">
-                <Check className="w-3.5 h-3.5 text-primary/70 flex-shrink-0" />
-                <span>{badge}</span>
-              </span>
-            ))}
+          <div className="w-full max-w-3xl mx-auto">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-0 sm:divide-x sm:divide-border">
+              {badges.map((badge) => (
+                <div key={badge} className="flex items-center gap-3 sm:px-8 first:sm:pl-0 last:sm:pr-0">
+                  <div className="w-7 h-7 rounded-lg flex items-center justify-center shrink-0" style={{ background: 'rgba(57,143,255,0.12)', border: '1px solid rgba(57,143,255,0.25)' }}>
+                    <Check className="w-4 h-4 text-primary" />
+                  </div>
+                  <span className="text-base font-medium text-foreground/90">{badge}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </AnimatedSection>
       </div>
