@@ -48,7 +48,7 @@ Stavíme systém, který hlídá váš rezervační systém a v pravý čas se o
 Víme ale, že při slově „automatizace" si spousta barberů představí to samé: 
 otravný spam, technické komplikace a naštvané zákazníky.`}
           </p>
-          <p className="text-white font-bold text-lg">Jak to tedy funguje u nás?</p>
+          <p className="text-foreground font-semibold text-lg">Jak to tedy funguje u nás?</p>
         </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
