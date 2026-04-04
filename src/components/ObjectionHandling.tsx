@@ -6,10 +6,9 @@ const cards = [
     icon: Heart,
     title: "Není to spam, ale prvotřídní péče.",
     text: (
-      <div className="text-white/70 text-base md:text-lg leading-relaxed space-y-4">
-        <p>Nebudeme vašim zákazníkům posílat slevy ani je do ničeho tlačit.</p>
-        <p>Systém jim napíše jen tehdy, když to dává smysl – například když uplynuly <strong className="text-foreground font-semibold">4 týdny od návštěvy</strong> a účes už potřebuje oživit.</p>
-        <p>Tímto způsobem na dálku budujete pevný vztah, díky kterému vám klient <strong className="text-foreground font-semibold">jen tak neuteče ke konkurenci</strong>.</p>
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
+        <p className="mb-4">Žádné plošné slevy ani nátlak. Systém se ozve jen ve chvíli, kdy to dává smysl – např. <strong className="text-foreground font-semibold">4 týdny po návštěvě</strong>.</p>
+        <p>Tím na dálku budujete vztah. Zákazník cítí péči, ne spam, a díky tomu vám <strong className="text-foreground font-semibold">jen tak neuteče ke konkurenci</strong>.</p>
       </div>
     ),
   },
@@ -17,10 +16,9 @@ const cards = [
     icon: Settings,
     title: "Nečekají vás žádné technické složitosti.",
     text: (
-      <div className="text-white/70 text-base md:text-lg leading-relaxed space-y-4">
-        <p>O veškeré nastavování a napojení na váš rezervační systém <strong className="text-foreground font-semibold">se postaráme my</strong>.</p>
-        <p>Vy si pouze prohlédnete a schválíte připravené texty a design emailů.</p>
-        <p>Poté už bude vašim jediným úkolem sledovat, <strong className="text-foreground font-semibold">jak naskakují nové rezervace</strong>.</p>
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
+        <p className="mb-4">Kompletní napojení na rezervační systém <strong className="text-foreground font-semibold">vyřešíme za vás</strong>.</p>
+        <p>Vy jen schválíte design a texty. Poté už bude vaším jediným úkolem sledovat, <strong className="text-foreground font-semibold">jak naskakují nové rezervace</strong>.</p>
       </div>
     ),
   },
@@ -28,8 +26,8 @@ const cards = [
     icon: Users,
     title: "Nenaháníme cizí lidi z reklam.",
     text: (
-      <div className="text-white/70 text-base md:text-lg leading-relaxed space-y-4">
-        <p>Nepotřebujete platit drahé kampaně na Facebooku.</p>
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
+        <p className="mb-4">Nepotřebujete platit drahé kampaně na Facebooku.</p>
         <p>Pomáháme vám <strong className="text-foreground font-semibold">vytěžit maximum z vaší stávající databáze</strong> – oslovujeme pouze zákazníky, kteří vás už znají a mají k vám důvěru.</p>
       </div>
     ),
