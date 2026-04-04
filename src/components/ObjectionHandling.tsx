@@ -48,7 +48,7 @@ Stavíme systém, který hlídá váš rezervační systém a v pravý čas se o
 Víme ale, že při slově „automatizace" si spousta barberů představí to samé: 
 otravný spam, technické komplikace a naštvané zákazníky.`}
           </p>
-          <p className="text-white font-bold text-lg">Jak to tedy funguje u nás?</p>
+          <p className="text-foreground font-semibold text-lg">Jak to tedy funguje u nás?</p>
         </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
@@ -58,7 +58,7 @@ otravný spam, technické komplikace a naštvané zákazníky.`}
                 <div className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300 group-hover:scale-105" style={{ background: 'linear-gradient(135deg, rgba(57,143,255,0.15), rgba(57,143,255,0.06))', border: '1px solid rgba(57,143,255,0.25)' }}>
                   <card.icon className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-lg font-bold text-white">{card.title}</h3>
+                <h3 className="text-lg font-semibold text-foreground">{card.title}</h3>
                 <p className="text-body text-sm leading-relaxed">{card.text}</p>
               </div>
             </AnimatedSection>

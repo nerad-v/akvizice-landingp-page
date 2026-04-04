@@ -26,7 +26,7 @@ const Hero = () => {
 
 
             Dejte mi ale{" "}
-            <span className="text-white font-semibold">3 minuty a v tomto videu</span>{" "}
+            <span className="text-foreground font-semibold">3 minuty a v tomto videu</span>{" "}
             vám ukážu, jak Platini Barber v Brně zaplnil 31 prázdných oken, aniž by hnul prstem.
           </p>
         </AnimatedSection>
