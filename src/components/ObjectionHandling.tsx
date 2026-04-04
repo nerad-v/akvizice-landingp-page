@@ -56,7 +56,7 @@ const ObjectionHandling = () => {
             <p><strong className="text-foreground font-semibold">Náš cíl je jednoduchý:</strong> Zajistit, abyste neměli v kalendáři díry – ať už po stornovaném termínu, nebo kvůli hluchým oknům.</p>
             <p>Náš systém hlídá váš rezervační systém a <strong className="text-foreground font-semibold">v pravý čas se ozve správným klientům</strong>.</p>
             <p>Víme ale, že slovo „automatizace" spoustu barberů děsí: představí si otravný spam, technické komplikace a naštvané zákazníky.</p>
-            <p className="text-lg text-foreground font-bold pt-4 md:pt-6 md:text-3xl">Jak to tedy funguje u nás?</p>
+            <p className="text-lg text-foreground font-bold pt-4 md:pt-6 md:text-2xl">Jak to tedy funguje u nás?</p>
           </div>
         </AnimatedSection>
 
