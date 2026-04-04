@@ -6,7 +6,7 @@ const cards = [
     icon: Heart,
     title: "Není to spam, ale prvotřídní péče.",
     text: (
-      <div className="text-muted-foreground text-sm md:text-lg leading-relaxed">
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
         <p className="mb-3 md:mb-4">Žádné plošné slevy ani nátlak. Systém se ozve jen ve chvíli, kdy to dává smysl – např. <strong className="text-foreground font-semibold">4 týdny po návštěvě</strong>.</p>
         <p>Tím na dálku budujete vztah. Zákazník cítí péči, ne spam, a díky tomu vám <strong className="text-foreground font-semibold">jen tak neuteče ke konkurenci</strong>.</p>
       </div>
