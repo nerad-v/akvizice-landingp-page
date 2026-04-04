@@ -25,7 +25,9 @@ const ObjectionHandling = () => {
       <div className="max-w-6xl mx-auto">
         <AnimatedSection className="text-center mb-6">
           <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-            Jak přesně vám zaplníme volná křesla?
+            Jak přesně vám zaplníme{" "}
+            <br />
+            <span className="font-serif italic text-primary">volná křesla?</span>
           </h2>
           <p className="text-gray-500 text-sm">(a proč se nemusíte bát slova „automatizace")</p>
         </AnimatedSection>

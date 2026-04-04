@@ -19,7 +19,9 @@ const CalendlySection = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl font-bold mb-3">
-            Zjistěte, kolik peněz vám leží v kalendáři.
+            Zjistěte, kolik peněz{" "}
+            <br />
+            <span className="font-serif italic text-primary">vám leží v kalendáři.</span>
           </h2>
           <p className="text-gray-400">15minutový hovor. Žádná smlouva. Žádný závazek.</p>
         </AnimatedSection>
