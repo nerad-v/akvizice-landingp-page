@@ -24,7 +24,7 @@ const CaseStudy = () => {
             <span className="serif-italic text-primary pt-2 md:pt-3 inline-block">Platini Barber v Brně</span>
           </h2>
           <div className="text-body max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
-            <p className="mb-2 md:mb-3">Platini měl dva barbery a databázi 1 500 kontaktů. Kdykoliv někdo zrušil termín na poslední chvíli, znamenalo to prázdné křeslo a <strong className="text-foreground font-semibold">čistou ztrátu</strong>.</p>
+            <p className="mb-2 md:mb-3">Platini měl dva barbery a databázi 1 500 kontaktů. Kdykoliv někdo zrušil termín na poslední chvíli, znamenalo to prázdné křeslo a <strong className="text-foreground font-semibold">zbytečnou ztrátu</strong>.</p>
             <p>Po napojení našeho řešení na jeho rezervační systém se stalo toto:</p>
           </div>
         </AnimatedSection>
