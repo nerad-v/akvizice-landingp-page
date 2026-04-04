@@ -31,14 +31,22 @@ const ObjectionHandling = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-4">
             Jak přesně vám zaplníme
             <br />
-            <span className="serif-italic text-primary">volná křesla?</span>
+            <span className="serif-italic text-primary py-0">volná křesla?</span>
           </h2>
           <p className="text-muted-ref text-sm">(a proč se nemusíte bát slova „automatizace")</p>
         </AnimatedSection>
 
         <AnimatedSection delay={100} className="max-w-3xl mx-auto text-center mb-16">
-          <p className="text-body leading-relaxed mb-6">
-            Náš cíl je jednoduchý: Zajistit, aby se vaši klienti vraceli pravidelně, a nedopustit, abyste měli v kalendáři díry – ať už jde o stornovaný termín, nebo zkrátka jen prázdné okno, které si nikdo nevybral. Stavíme systém, který hlídá váš rezervační systém a v pravý čas se ozve správným klientům. Víme ale, že při slově „automatizace" si spousta barberů představí to samé: otravný spam, technické komplikace a naštvané zákazníky.
+          <p className="text-body leading-relaxed mb-6 whitespace-pre-line">
+            {`Náš cíl je jednoduchý: 
+ Zajistit, aby se vaši klienti vraceli pravidelně, a nedopustit, abyste měli v kalendáři díry – ať už jde o stornovaný termín, nebo zkrátka jen prázdné okno, které si nikdo nevybral. 
+
+
+Stavíme systém, který hlídá váš rezervační systém a v pravý čas se ozve správným klientům.
+
+
+Víme ale, že při slově „automatizace" si spousta barberů představí to samé: 
+otravný spam, technické komplikace a naštvané zákazníky.`}
           </p>
           <p className="text-white font-bold text-lg">Jak to tedy funguje u nás?</p>
         </AnimatedSection>
