@@ -16,7 +16,7 @@ const cards = [
     icon: Settings,
     title: "Nečekají vás žádné technické složitosti.",
     text: (
-      <div className="text-muted-foreground text-sm md:text-lg leading-relaxed">
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
         <p className="mb-3 md:mb-4">Kompletní napojení na rezervační systém <strong className="text-foreground font-semibold">vyřešíme za vás</strong>.</p>
         <p>Vy jen schválíte design a texty. Poté už bude vaším jediným úkolem sledovat, <strong className="text-foreground font-semibold">jak naskakují nové rezervace</strong>.</p>
       </div>
