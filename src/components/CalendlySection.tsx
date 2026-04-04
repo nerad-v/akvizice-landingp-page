@@ -13,7 +13,7 @@ const CalendlySection = () => {
   }, []);
 
   return (
-    <section id="calendly-section" className="relative py-20 sm:py-28 px-5 sm:px-8 overflow-hidden">
+    <section id="calendly-section" className="relative pt-12 pb-20 sm:pt-16 sm:pb-28 px-5 sm:px-8 overflow-hidden">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full pointer-events-none" style={{ background: '#398fff', opacity: 0.1, filter: 'blur(160px)' }} />
 
       <div className="max-w-6xl mx-auto relative z-10">
