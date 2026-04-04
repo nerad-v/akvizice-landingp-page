@@ -5,7 +5,7 @@ const systems = [
   { name: "Reservio", sub: "Rezervační systém", icon: Store },
   { name: "Reservanto", sub: "Rezervační systém", icon: Store },
   { name: "MyFox", sub: "Rezervační systém", icon: Store },
-  { name: "...a další desítky systémů", sub: "Rezervační systém", icon: Plus },
+  { name: "...a další desítky systémů", sub: null, icon: Plus },
 ];
 
 const Compatibility = () => {
