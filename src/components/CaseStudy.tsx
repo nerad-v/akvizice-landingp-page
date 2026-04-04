@@ -55,6 +55,10 @@ const CaseStudy = () => {
           </blockquote>
         </AnimatedSection>
 
+        <AnimatedSection delay={450} className="text-center mb-6 md:mb-8">
+          <p className="text-lg font-medium text-foreground">Michaelův kalendář už je plný. Teď je řada na tom vašem.</p>
+        </AnimatedSection>
+
         <AnimatedSection delay={500} className="flex flex-col items-center">
           <a href="#calendly-section" className="neon-button px-6 py-3 text-sm md:text-base md:px-8 md:py-4 max-w-xs md:max-w-none">
             <span>Zjistěte co to přinese vašemu barbershopu</span>

@@ -41,6 +41,7 @@ const CalendlySection = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={200}>
+          <p className="text-sm text-muted-foreground mb-4 italic text-center">Vyberte si čas, který vám vyhovuje. Zabere to 30 sekund.</p>
           <div className="glass-card overflow-hidden p-1 md:p-2">
             <div
               className="calendly-inline-widget"

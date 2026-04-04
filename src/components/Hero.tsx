@@ -26,6 +26,15 @@ const Hero = () => {
           </div>
         </AnimatedSection>
 
+        <AnimatedSection delay={150} className="flex items-center justify-center gap-2 mb-6 md:mb-8">
+          <div className="flex items-center gap-0.5">
+            {[...Array(5)].map((_, i) => (
+              <Star key={i} className="w-3.5 h-3.5 md:w-4 md:h-4 text-primary fill-primary" />
+            ))}
+          </div>
+          <span className="text-xs uppercase tracking-widest text-primary/80 font-medium">Prověřené řešení pro CZ/SK barbershopy</span>
+        </AnimatedSection>
+
         <AnimatedSection delay={200} className="w-full mb-8 md:mb-12">
           <div className="w-full aspect-video rounded-2xl overflow-hidden" style={{ border: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 0 100px rgba(57,143,255,0.08), 0 25px 50px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.05)' }}>
             <iframe
