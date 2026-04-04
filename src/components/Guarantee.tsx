@@ -6,9 +6,12 @@ const Guarantee = () => {
     <section className="relative pt-14 pb-8 sm:pt-20 sm:pb-12 md:pt-28 md:pb-16 px-5 sm:px-8">
       <div className="max-w-6xl mx-auto">
         <AnimatedSection className="text-center mb-8 md:mb-16">
-          <span className="text-xs md:text-sm font-medium tracking-[0.14em] uppercase text-label mb-5 md:mb-7 inline-block">
-            Garance výsledku
-          </span>
+          <div className="flex items-center justify-center gap-2 mb-5 md:mb-7">
+            <Zap className="w-3 h-3 md:w-3.5 md:h-3.5 text-primary fill-primary/20" />
+            <span className="text-xs md:text-sm font-medium tracking-[0.14em] uppercase text-label">
+              Garance výsledku
+            </span>
+          </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
             Buď vám zaplníme kalendář,
             <br />
