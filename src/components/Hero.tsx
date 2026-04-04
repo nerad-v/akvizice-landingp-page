@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto w-full text-center flex flex-col items-center">
         <AnimatedSection className="w-full">
-          <h1 className="text-5xl md:text-7xl lg:text-[80px] font-bold tracking-tight leading-[1.1] mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-[80px] font-bold tracking-tight leading-[1.1] mb-8 md:mb-12">
             Už jste o nás slyšeli.
             <br />
             <span className="serif-italic text-primary font-sans text-6xl pt-3 text-center inline-block">Teď vám ukážu, proč to reálně funguje.</span>
