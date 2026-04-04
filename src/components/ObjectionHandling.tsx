@@ -26,7 +26,7 @@ const cards = [
     icon: Users,
     title: "Nenaháníme cizí lidi z reklam.",
     text: (
-      <div className="text-muted-foreground text-sm md:text-lg leading-relaxed">
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
         <p className="mb-3 md:mb-4">Nepotřebujete platit drahé kampaně na Facebooku.</p>
         <p>Pomáháme vám <strong className="text-foreground font-semibold">vytěžit maximum z vaší stávající databáze</strong> – oslovujeme pouze zákazníky, kteří vás už znají a mají k vám důvěru.</p>
       </div>
