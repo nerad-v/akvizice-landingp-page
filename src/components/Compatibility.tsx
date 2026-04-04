@@ -21,7 +21,7 @@ const Compatibility = () => {
 
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-16 text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight leading-snug mb-10 text-center">
             Napojíme se na 90 %
             <br />
             <span className="serif-italic text-primary pt-3 inline-block">systémů v ČR a SR</span>
