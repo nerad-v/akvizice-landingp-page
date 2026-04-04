@@ -6,7 +6,7 @@ const cards = [
     icon: Heart,
     title: "Není to spam, ale prvotřídní péče.",
     text: (
-      <div className="text-muted-foreground text-sm md:text-lg leading-relaxed">
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
         <p className="mb-3 md:mb-4">Žádné plošné slevy ani nátlak. Systém se ozve jen ve chvíli, kdy to dává smysl – např. <strong className="text-foreground font-semibold">4 týdny po návštěvě</strong>.</p>
         <p>Tím na dálku budujete vztah. Zákazník cítí péči, ne spam, a díky tomu vám <strong className="text-foreground font-semibold">jen tak neuteče ke konkurenci</strong>.</p>
       </div>
@@ -16,7 +16,7 @@ const cards = [
     icon: Settings,
     title: "Nečekají vás žádné technické složitosti.",
     text: (
-      <div className="text-muted-foreground text-sm md:text-lg leading-relaxed">
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
         <p className="mb-3 md:mb-4">Kompletní napojení na rezervační systém <strong className="text-foreground font-semibold">vyřešíme za vás</strong>.</p>
         <p>Vy jen schválíte design a texty. Poté už bude vaším jediným úkolem sledovat, <strong className="text-foreground font-semibold">jak naskakují nové rezervace</strong>.</p>
       </div>
@@ -26,7 +26,7 @@ const cards = [
     icon: Users,
     title: "Nenaháníme cizí lidi z reklam.",
     text: (
-      <div className="text-muted-foreground text-sm md:text-lg leading-relaxed">
+      <div className="text-muted-foreground text-base md:text-lg leading-relaxed">
         <p className="mb-3 md:mb-4">Nepotřebujete platit drahé kampaně na Facebooku.</p>
         <p>Pomáháme vám <strong className="text-foreground font-semibold">vytěžit maximum z vaší stávající databáze</strong> – oslovujeme pouze zákazníky, kteří vás už znají a mají k vám důvěru.</p>
       </div>
@@ -52,7 +52,7 @@ const ObjectionHandling = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={100}>
-          <div className="max-w-3xl mx-auto text-sm md:text-lg text-muted-foreground space-y-3 md:space-y-5 text-center mt-8 md:mt-20 mb-12 md:mb-24">
+          <div className="max-w-3xl mx-auto text-base md:text-lg text-muted-foreground space-y-3 md:space-y-5 text-center mt-8 md:mt-20 mb-12 md:mb-24 leading-relaxed">
             <p><strong className="text-foreground font-semibold">Náš cíl je jednoduchý:</strong> Zajistit, abyste neměli v kalendáři díry – ať už po stornovaném termínu, nebo kvůli hluchým oknům.</p>
             <p>Náš systém hlídá váš rezervační systém a <strong className="text-foreground font-semibold">v pravý čas se ozve správným klientům</strong>.</p>
             <p>Víme ale, že slovo „automatizace" spoustu barberů děsí: představí si otravný spam, technické komplikace a naštvané zákazníky.</p>

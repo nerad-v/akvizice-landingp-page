@@ -25,7 +25,7 @@ const Guarantee = () => {
                 <ShieldCheck className="w-8 h-8 md:w-10 md:h-10 text-primary" />
               </div>
 
-              <div className="relative z-10 text-sm md:text-lg text-muted-foreground space-y-3 md:space-y-5 max-w-2xl mx-auto leading-relaxed">
+              <div className="relative z-10 text-base md:text-lg text-muted-foreground space-y-3 md:space-y-5 max-w-2xl mx-auto leading-relaxed">
                 <p>Víme, že náš systém funguje, a proto za něj dáváme ruku do ohně. Naším cílem je přinést vám reálný zisk, ne vás uvázat k nesmyslným smlouvám.</p>
                 <p>Pokud vám systém do 60 dnů nepřinese výsledky, na kterých jsme se předem dohodli, <strong className="text-foreground font-semibold">vrátíme vám plnou částku za jeho nasazení</strong>.</p>
               </div>
