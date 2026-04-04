@@ -49,9 +49,9 @@
 @layer components {
   /* Serif italic utility — matches reference site */
   .serif-italic {
-    font-family: "Instrument Serif", Georgia, serif;
-    font-style: italic;
-    font-weight: 400;
+    font-family: "Instrument Serif", Georgia, serif !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
   }
 
   .glass-card {
