@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import ReadingProgress from "@/components/ReadingProgress";
 import Hero from "@/components/Hero";
 import Compatibility from "@/components/Compatibility";
 import ObjectionHandling from "@/components/ObjectionHandling";
@@ -10,6 +11,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <ReadingProgress />
       <Header />
       <Hero />
       <Compatibility />
