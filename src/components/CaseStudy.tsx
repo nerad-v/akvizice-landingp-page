@@ -1,4 +1,4 @@
-import { CalendarCheck, DollarSign, Clock, ArrowRight } from "lucide-react";
+import { CalendarCheck, DollarSign, Clock, ArrowRight, Zap } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const CaseStudy = () => {
@@ -12,9 +12,12 @@ const CaseStudy = () => {
     <section className="relative py-14 sm:py-20 md:py-28 px-5 sm:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection className="text-center mb-12 sm:mb-20 md:mb-24">
-          <span className="text-xs md:text-sm font-medium tracking-[0.14em] uppercase text-label mb-5 md:mb-7 inline-block">
-            Případová studie
-          </span>
+          <div className="flex items-center justify-center gap-2 mb-5 md:mb-7">
+            <Zap className="w-3 h-3 md:w-3.5 md:h-3.5 text-primary fill-primary/20" />
+            <span className="text-xs md:text-sm font-medium tracking-[0.14em] uppercase text-label">
+              Případová studie
+            </span>
+          </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight mb-4 md:mb-6">
             Jak to vypadalo v praxi u
             <br />

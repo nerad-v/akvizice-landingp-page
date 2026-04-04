@@ -16,7 +16,7 @@ const ReadingProgress = () => {
 
   return (
     <div
-      className="fixed top-0 left-0 h-1 bg-primary z-[9999] transition-all duration-150"
+      className="fixed top-0 left-0 h-[2px] bg-primary z-[9999] transition-all duration-150"
       style={{
         width: `${progress}%`,
         boxShadow: "0 0 10px hsl(var(--primary) / 0.8)",
