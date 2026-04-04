@@ -21,7 +21,7 @@ const CalendlySection = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-6">
             Zjistěte, kolik peněz
             <br />
-            <span className="serif-italic text-primary">vám leží v kalendáři.</span>
+            <span className="serif-italic text-primary pt-2 inline-block">vám leží v kalendáři.</span>
           </h2>
           <p className="text-body">15minutový hovor. Žádná smlouva. Žádný závazek.</p>
         </AnimatedSection>

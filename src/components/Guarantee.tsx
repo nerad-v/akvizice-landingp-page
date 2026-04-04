@@ -11,7 +11,7 @@ const Guarantee = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-6">
             Buď vám zaplníme kalendář,
             <br />
-            <span className="serif-italic text-primary">nebo vám vrátíme peníze!</span>
+            <span className="serif-italic text-primary pt-2 inline-block">nebo vám vrátíme peníze!</span>
           </h2>
           <p className="text-body mb-4">
             Víme, že náš systém funguje, a proto za něj dáváme ruku do ohně.

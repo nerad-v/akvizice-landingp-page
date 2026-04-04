@@ -18,7 +18,7 @@ const CaseStudy = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-6">
             Jak to vypadalo v praxi u
             <br />
-            <span className="serif-italic text-primary">Platini Barber v Brně</span>
+            <span className="serif-italic text-primary pt-2 inline-block">Platini Barber v Brně</span>
           </h2>
           <p className="text-body max-w-2xl mx-auto leading-relaxed">
             Platini měl dva barbery a databázi 1 500 kontaktů. Kdykoliv někdo zrušil termín na poslední chvíli, znamenalo to prázdné křeslo a čistou ztrátu. Po napojení našeho řešení na jeho rezervační systém, se stalo toto:
