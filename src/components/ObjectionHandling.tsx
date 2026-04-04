@@ -31,7 +31,7 @@ const ObjectionHandling = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-4">
             Jak přesně vám zaplníme
             <br />
-            <span className="serif-italic text-primary">volná křesla?</span>
+            <span className="serif-italic text-primary py-0">volná křesla?</span>
           </h2>
           <p className="text-muted-ref text-sm">(a proč se nemusíte bát slova „automatizace")</p>
         </AnimatedSection>
