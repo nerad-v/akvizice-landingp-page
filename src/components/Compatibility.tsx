@@ -33,7 +33,7 @@ const Compatibility = () => {
             {systems.map((s) => (
               <div
                 key={s.name}
-                className="glass-card p-6 flex items-center gap-4 min-w-[220px] transition-all duration-300 hover:-translate-y-1 hover:border-primary/30"
+                className="glass-card p-6 flex items-center gap-4 min-w-[220px] opacity-60 hover:opacity-100 hover:scale-105 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30"
                 style={{ borderColor: 'rgba(255,255,255,0.1)' }}
               >
                 <div className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0" style={{ background: 'linear-gradient(135deg, rgba(57,143,255,0.15), rgba(57,143,255,0.06))', border: '1px solid rgba(57,143,255,0.25)' }}>
