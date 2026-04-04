@@ -1,4 +1,4 @@
-import { Check, ArrowRight } from "lucide-react";
+import { Check, ArrowRight, Star } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const Hero = () => {
