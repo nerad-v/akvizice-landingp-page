@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl lg:text-[80px] font-bold tracking-tight leading-[1.1] mb-6">
             Už jste o nás slyšeli.
             <br />
-            <span className="serif-italic text-primary">Teď vám ukážu, proč to reálně funguje.</span>
+            <span className="serif-italic text-primary font-sans">Teď vám ukážu, proč to reálně funguje.</span>
           </h1>
           <p className="text-body text-lg max-w-xl mx-auto mb-12 leading-relaxed">
             Kolem barbershopů se točí desítky agentur, co slibují zázraky, a vy logicky nechcete kupovat zajíce v pytli. Nedivím se vám. Dejte mi ale{" "}
