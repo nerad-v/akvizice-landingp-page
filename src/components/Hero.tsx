@@ -9,7 +9,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center pt-32 pb-24 sm:pb-32 px-5 sm:px-8 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center pt-40 pb-24 sm:pb-32 px-5 sm:px-8 overflow-hidden">
       {/* Radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full pointer-events-none" style={{ background: '#398fff', opacity: 0.12, filter: 'blur(160px)' }} />
 
