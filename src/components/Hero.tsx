@@ -20,7 +20,7 @@ const Hero = () => {
             <br />
             <span className="serif-italic text-primary font-sans text-3xl md:text-6xl pt-2 md:pt-3 text-center inline-block">Teď vám ukážu, proč to reálně funguje.</span>
           </h1>
-          <div className="text-body max-w-2xl mx-auto text-sm md:text-lg mb-8 md:mb-12">
+          <div className="text-body max-w-2xl mx-auto text-base md:text-lg leading-relaxed mb-8 md:mb-12">
             <p className="mb-3 md:mb-4">Kolem barbershopů se točí desítky agentur, co slibují zázraky, a vy logicky nechcete kupovat zajíce v pytli. Nedivím se vám.</p>
             <p>Dejte mi ale <strong className="text-foreground font-semibold">3 minuty a v tomto videu</strong> vám ukážu, jak Platini Barber v Brně zaplnil <strong className="text-foreground font-semibold">31 prázdných oken, aniž by hnul prstem</strong>.</p>
           </div>
