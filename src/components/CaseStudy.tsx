@@ -56,7 +56,7 @@ const CaseStudy = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={450} className="text-center mb-6 md:mb-8">
-          <p className="text-lg font-medium text-foreground">Michaelův kalendář už je plný. Teď je řada na tom vašem.</p>
+          <p className="text-lg font-medium text-foreground">Michaelův kalendář už je plný. Teď je řada na ten váš.</p>
         </AnimatedSection>
 
         <AnimatedSection delay={500} className="flex flex-col items-center">
