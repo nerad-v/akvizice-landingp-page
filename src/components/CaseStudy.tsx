@@ -1,4 +1,4 @@
-import { CalendarCheck, DollarSign, Clock, ArrowRight } from "lucide-react";
+import { CalendarCheck, DollarSign, Clock, ArrowRight, Zap } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const CaseStudy = () => {
