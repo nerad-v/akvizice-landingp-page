@@ -1,4 +1,4 @@
-import { ShieldCheck } from "lucide-react";
+import { ShieldCheck, Zap } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const Guarantee = () => {
