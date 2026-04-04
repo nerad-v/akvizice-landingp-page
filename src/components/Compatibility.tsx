@@ -24,7 +24,7 @@ const Compatibility = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight leading-snug mb-10 text-center">
             Napojíme se na 90 %
             <br />
-            <span className="serif-italic text-primary pt-3 inline-block">systémů v ČR a SR</span>
+            <span className="serif-italic text-primary pt-2 inline-block">systémů v ČR a SR</span>
           </h2>
         </AnimatedSection>
 
