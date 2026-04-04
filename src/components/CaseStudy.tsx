@@ -3,7 +3,7 @@ import AnimatedSection from "./AnimatedSection";
 
 const CaseStudy = () => {
   const stats = [
-    { icon: CalendarCheck, value: "31", label: "zachráněných rezervací" },
+    { icon: CalendarCheck, value: "31", label: "zachráněných rezervací za dva týdny" },
     { icon: DollarSign, value: "0 Kč", label: "utracených za další propagaci." },
     { icon: Clock, value: "0 Hodin", label: "stráveného času nastavováním" },
   ];
