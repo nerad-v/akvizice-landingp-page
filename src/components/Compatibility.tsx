@@ -10,7 +10,7 @@ const systems = [
 
 const Compatibility = () => {
   return (
-    <section className="relative py-24 md:py-32 px-5 sm:px-8 overflow-hidden">
+    <section className="relative pt-8 md:pt-12 pb-12 md:pb-16 px-5 sm:px-8 overflow-hidden">
       {/* Top divider */}
       <div className="absolute top-0 left-0 w-full h-px bg-foreground/5" />
       {/* Bottom divider */}
