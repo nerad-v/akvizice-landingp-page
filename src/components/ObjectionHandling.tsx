@@ -67,7 +67,7 @@ const ObjectionHandling = () => {
                 <div className="w-10 h-10 md:w-11 md:h-11 rounded-xl flex items-center justify-center shrink-0 transition-all duration-300 group-hover:scale-105" style={{ background: 'linear-gradient(135deg, rgba(57,143,255,0.15), rgba(57,143,255,0.06))', border: '1px solid rgba(57,143,255,0.25)' }}>
                   <card.icon className="w-5 h-5 text-primary" />
                 </div>
-                <h3 className="text-base md:text-lg font-semibold text-foreground">{card.title}</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-foreground mb-3 md:mb-4">{card.title}</h3>
                 {typeof card.text === 'string' ? <p className="text-body text-sm leading-relaxed">{card.text}</p> : card.text}
               </div>
             </AnimatedSection>
