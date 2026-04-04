@@ -6,9 +6,9 @@ const cards = [
     icon: Heart,
     title: "Není to spam, ale prvotřídní péče.",
     text: (
-      <div className="text-body text-sm leading-relaxed">
-        <p className="mb-3">Nebudeme vašim zákazníkům posílat slevy ani je do ničeho tlačit.</p>
-        <p className="mb-3">Systém jim napíše jen tehdy, když to dává smysl – například když uplynuly <strong className="text-foreground font-semibold">4 týdny od návštěvy</strong> a účes už potřebuje oživit.</p>
+      <div className="text-white/70 text-base md:text-lg leading-relaxed space-y-4">
+        <p>Nebudeme vašim zákazníkům posílat slevy ani je do ničeho tlačit.</p>
+        <p>Systém jim napíše jen tehdy, když to dává smysl – například když uplynuly <strong className="text-foreground font-semibold">4 týdny od návštěvy</strong> a účes už potřebuje oživit.</p>
         <p>Tímto způsobem na dálku budujete pevný vztah, díky kterému vám klient <strong className="text-foreground font-semibold">jen tak neuteče ke konkurenci</strong>.</p>
       </div>
     ),
