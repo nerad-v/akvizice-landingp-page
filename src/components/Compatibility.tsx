@@ -5,7 +5,7 @@ const systems = [
   { name: "Reservio", sub: "Rezervační systém", icon: Store },
   { name: "Reservanto", sub: "Rezervační systém", icon: Store },
   { name: "MyFox", sub: "Rezervační systém", icon: Store },
-  { name: "...a další desítky systémů", sub: "Rezervační systém", icon: Plus },
+  { name: "...a další desítky systémů", sub: null, icon: Plus },
 ];
 
 const Compatibility = () => {
@@ -21,10 +21,10 @@ const Compatibility = () => {
 
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] mb-16 text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight leading-snug mb-10 text-center">
             Napojíme se na 90 %
             <br />
-            <span className="serif-italic text-primary pt-3 inline-block">systémů v ČR a SR</span>
+            <span className="serif-italic text-primary pt-2 inline-block">systémů v ČR a SR</span>
           </h2>
         </AnimatedSection>
 
@@ -41,7 +41,7 @@ const Compatibility = () => {
                 </div>
                 <div>
                   <p className="text-base text-foreground font-medium">{s.name}</p>
-                  <p className="text-xs text-muted-ref">{s.sub}</p>
+                  {s.sub && <p className="text-xs text-muted-ref">{s.sub}</p>}
                 </div>
               </div>
             ))}
