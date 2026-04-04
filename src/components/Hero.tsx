@@ -26,13 +26,13 @@ const Hero = () => {
           </div>
         </AnimatedSection>
 
-        <AnimatedSection delay={150} className="flex items-center justify-center gap-2 mb-6 md:mb-8">
-          <div className="flex items-center gap-0.5">
+        <AnimatedSection delay={150} className="flex flex-col items-center justify-center md:flex-row md:gap-4 mb-6 md:mb-8">
+          <div className="flex items-center gap-0.5 mb-2 md:mb-0">
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-3.5 h-3.5 md:w-4 md:h-4 text-primary fill-primary" />
             ))}
           </div>
-          <span className="text-xs uppercase tracking-widest text-primary/80 font-medium">Prověřené řešení pro CZ/SK barbershopy</span>
+          <span className="text-xs uppercase tracking-widest text-primary/80 font-medium text-center">Prověřené řešení pro CZ/SK barbershopy</span>
         </AnimatedSection>
 
         <AnimatedSection delay={200} className="w-full mb-8 md:mb-12">
