@@ -44,28 +44,22 @@ const ObjectionHandling = () => {
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
-        <AnimatedSection className="text-center mb-20 sm:mb-24">
+        <AnimatedSection className="text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-4">
             Jak přesně vám zaplníme
             <br />
             <span className="serif-italic text-primary pt-3 inline-block">volná křesla?</span>
           </h2>
-          <p className="text-muted-ref text-sm">(a proč se nemusíte bát slova „automatizace")</p>
+          <p className="text-xl md:text-2xl text-muted-foreground mt-4">(a proč se nemusíte bát slova „automatizace")</p>
         </AnimatedSection>
 
-        <AnimatedSection delay={100} className="max-w-3xl mx-auto text-center mb-16">
-          <p className="text-body leading-relaxed mb-6 whitespace-pre-line">
-            {`Náš cíl je jednoduchý: 
- Zajistit, aby se vaši klienti vraceli pravidelně, a nedopustit, abyste měli v kalendáři díry – ať už jde o stornovaný termín, nebo zkrátka jen prázdné okno, které si nikdo nevybral. 
-
-
-Stavíme systém, který hlídá váš rezervační systém a v pravý čas se ozve správným klientům.
-
-
-Víme ale, že při slově „automatizace" si spousta barberů představí to samé: 
-otravný spam, technické komplikace a naštvané zákazníky.`}
-          </p>
-          <p className="text-foreground font-semibold text-lg">Jak to tedy funguje u nás?</p>
+        <AnimatedSection delay={100}>
+          <div className="max-w-3xl mx-auto text-lg text-muted-foreground space-y-4 text-center mt-10 mb-16">
+            <p><strong className="text-foreground font-semibold">Náš cíl je jednoduchý:</strong> Zajistit, aby se vaši klienti vraceli pravidelně, a nedopustit, abyste měli v kalendáři díry – ať už jde o stornovaný termín, nebo zkrátka jen prázdné okno, které si nikdo nevybral.</p>
+            <p>Stavíme systém, který hlídá váš rezervační systém a <strong className="text-foreground font-semibold">v pravý čas se ozve správným klientům</strong>.</p>
+            <p>Víme ale, že při slově „automatizace" si spousta barberů představí to samé: otravný spam, technické komplikace a naštvané zákazníky.</p>
+            <p className="text-xl md:text-2xl text-foreground font-bold pt-6">Jak to tedy funguje u nás?</p>
+          </div>
         </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6">
