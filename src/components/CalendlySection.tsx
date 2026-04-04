@@ -49,6 +49,22 @@ const CalendlySection = () => {
             />
           </div>
         </AnimatedSection>
+
+        <div className="mt-6 flex justify-center w-full">
+          <a
+            href="https://calendly.com/nerad-boostmail/jak-na-maximalne-plny-kalendar-15-min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-all duration-300 px-5 py-2.5 rounded-full border border-border/30 hover:border-border/60 bg-muted/5 hover:bg-muted/10"
+          >
+            <span>Nezobrazuje se kalendář správně? Otevřít v novém okně</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
+              <path d="M15 3h6v6" />
+              <path d="M10 14 21 3" />
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            </svg>
+          </a>
+        </div>
       </div>
     </section>
   );
