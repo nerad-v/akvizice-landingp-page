@@ -20,15 +20,10 @@ const Hero = () => {
             <br />
             <span className="serif-italic text-primary font-sans text-6xl pt-3 text-center inline-block">Teď vám ukážu, proč to reálně funguje.</span>
           </h1>
-          <p className="text-body text-lg max-w-xl mx-auto mb-12 leading-relaxed whitespace-pre-line">
-            Kolem barbershopů se točí desítky agentur, co slibují zázraky, a vy logicky nechcete kupovat zajíce v pytli.
-            Nedivím se vám.
-
-
-            Dejte mi ale{" "}
-            <span className="text-foreground font-semibold">3 minuty a v tomto videu</span>{" "}
-            vám ukážu, jak Platini Barber v Brně zaplnil 31 prázdných oken, aniž by hnul prstem.
-          </p>
+          <div className="text-body max-w-2xl mx-auto text-lg mb-12">
+            <p className="mb-4">Kolem barbershopů se točí desítky agentur, co slibují zázraky, a vy logicky nechcete kupovat zajíce v pytli. Nedivím se vám.</p>
+            <p>Dejte mi ale <strong className="text-foreground font-semibold">3 minuty a v tomto videu</strong> vám ukážu, jak Platini Barber v Brně zaplnil <strong className="text-foreground font-semibold">31 prázdných oken, aniž by hnul prstem</strong>.</p>
+          </div>
         </AnimatedSection>
 
         <AnimatedSection delay={200} className="w-full mb-12">

@@ -76,7 +76,7 @@ otravný spam, technické komplikace a naštvané zákazníky.`}
                   <card.icon className="w-5 h-5 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground">{card.title}</h3>
-                <p className="text-body text-sm leading-relaxed">{card.text}</p>
+                {typeof card.text === 'string' ? <p className="text-body text-sm leading-relaxed">{card.text}</p> : card.text}
               </div>
             </AnimatedSection>
           ))}
