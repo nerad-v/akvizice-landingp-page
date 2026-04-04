@@ -41,7 +41,7 @@ const Compatibility = () => {
                 </div>
                 <div>
                   <p className="text-base text-foreground font-medium">{s.name}</p>
-                  <p className="text-xs text-muted-ref">{s.sub}</p>
+                  {s.sub && <p className="text-xs text-muted-ref">{s.sub}</p>}
                 </div>
               </div>
             ))}
