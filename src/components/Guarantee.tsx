@@ -3,7 +3,7 @@ import AnimatedSection from "./AnimatedSection";
 
 const Guarantee = () => {
   return (
-    <section className="relative py-28 sm:py-36 px-5 sm:px-8">
+    <section className="relative py-20 sm:py-28 px-5 sm:px-8">
       <div className="max-w-6xl mx-auto">
         <AnimatedSection className="text-center mb-16">
           <span className="text-sm font-medium tracking-[0.14em] uppercase text-label mb-7 inline-block">

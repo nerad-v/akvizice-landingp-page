@@ -36,7 +36,7 @@ const cards = [
 
 const ObjectionHandling = () => {
   return (
-    <section className="relative py-28 sm:py-36 px-5 sm:px-8 overflow-hidden">
+    <section className="relative py-20 sm:py-28 px-5 sm:px-8 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full" style={{ background: '#398fff', opacity: 0.08, filter: 'blur(160px)' }} />
       </div>

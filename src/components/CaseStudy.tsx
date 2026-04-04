@@ -9,7 +9,7 @@ const CaseStudy = () => {
   ];
 
   return (
-    <section className="relative py-28 sm:py-36 px-5 sm:px-8 overflow-hidden">
+    <section className="relative py-20 sm:py-28 px-5 sm:px-8 overflow-hidden">
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection className="text-center mb-20 sm:mb-24">
           <span className="text-sm font-medium tracking-[0.14em] uppercase text-label mb-7 inline-block">
