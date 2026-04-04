@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { CircleCheck } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const CalendlySection = () => {
