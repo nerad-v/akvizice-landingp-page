@@ -18,10 +18,10 @@ const CalendlySection = () => {
 
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection className="text-center mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-8">
             Zjistěte, kolik peněz{" "}
             <br />
-            <span className="font-serif italic text-primary">vám leží v kalendáři.</span>
+            <span className="font-serif italic font-normal text-primary">vám leží v kalendáři.</span>
           </h2>
           <p className="text-gray-400">15minutový hovor. Žádná smlouva. Žádný závazek.</p>
         </AnimatedSection>

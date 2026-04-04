@@ -15,10 +15,10 @@ const CaseStudy = () => {
           <span className="text-neon-blue text-sm font-semibold tracking-widest uppercase">
             Případová studie
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold mt-3 mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mt-3 mb-8">
             Jak to vypadalo v praxi u{" "}
             <br />
-            <span className="font-serif italic text-primary">Platini Barber v Brně</span>
+            <span className="font-serif italic font-normal text-primary">Platini Barber v Brně</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Platini měl dva barbery a databázi 1 500 kontaktů. Kdykoliv někdo zrušil termín na poslední chvíli, znamenalo to prázdné křeslo a čistou ztrátu. Po napojení našeho řešení na jeho rezervační systém, se stalo toto:
