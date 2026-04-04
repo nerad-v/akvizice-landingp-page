@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Satoshi', 'system-ui', 'sans-serif'],
-        serif: ['Instrument Serif', 'Georgia', 'serif'],
+        serif: ['"Instrument Serif"', 'Georgia', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",

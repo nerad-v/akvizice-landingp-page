@@ -8,10 +8,10 @@ const Guarantee = () => {
           <span className="text-neon-blue text-sm font-semibold tracking-widest uppercase">
             Garance výsledku
           </span>
-          <h2 className="text-2xl sm:text-3xl font-bold mt-3 mb-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mt-3 mb-8">
             Buď vám zaplníme kalendář,{" "}
             <br />
-            <span className="font-serif italic text-primary">nebo vám vrátíme peníze!</span>
+            <span className="font-serif italic font-normal text-primary">nebo vám vrátíme peníze!</span>
           </h2>
           <p className="text-gray-400 mb-4">
             Víme, že náš systém funguje, a proto za něj dáváme ruku do ohně.
