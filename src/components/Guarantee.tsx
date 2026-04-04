@@ -16,9 +16,10 @@ const Guarantee = () => {
           <p className="text-body mb-4">
             Víme, že náš systém funguje, a proto za něj dáváme ruku do ohně.
           </p>
-          <p className="text-body max-w-2xl mx-auto leading-relaxed mb-10">
-            Naším cílem je přinést vám reálný zisk, ne vás uvázat k nesmyslným smlouvám. Pokud vám systém do 60 dnů nepřinese výsledky, na kterých jsme se předem dohodli, vrátíme vám plnou částku za jeho nasazení.
-          </p>
+          <div className="text-body max-w-2xl mx-auto mb-10 text-lg">
+            <p className="mb-3">Naším cílem je přinést vám reálný zisk, ne vás uvázat k nesmyslným smlouvám.</p>
+            <p>Pokud vám systém do 60 dnů nepřinese výsledky, na kterých jsme se předem dohodli, <strong className="text-foreground font-semibold">vrátíme vám plnou částku za jeho nasazení</strong>.</p>
+          </div>
           <p className="text-3xl sm:text-4xl font-bold text-primary mb-12">
             Vy nic neriskujete. My ano.
           </p>

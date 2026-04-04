@@ -5,17 +5,34 @@ const cards = [
   {
     icon: Heart,
     title: "Není to spam, ale prvotřídní péče.",
-    text: "Nebudeme vašim zákazníkům posílat slevy ani je do ničeho tlačit. Systém jim napíše jen tehdy, když to dává smysl – například když uplynuly 4 týdny od návštěvy a účes už potřebuje oživit. Tímto způsobem na dálku budujete pevný vztah, díky kterému vám klient jen tak neuteče ke konkurenci.",
+    text: (
+      <div className="text-body text-sm leading-relaxed">
+        <p className="mb-3">Nebudeme vašim zákazníkům posílat slevy ani je do ničeho tlačit.</p>
+        <p className="mb-3">Systém jim napíše jen tehdy, když to dává smysl – například když uplynuly <strong className="text-foreground font-semibold">4 týdny od návštěvy</strong> a účes už potřebuje oživit.</p>
+        <p>Tímto způsobem na dálku budujete pevný vztah, díky kterému vám klient <strong className="text-foreground font-semibold">jen tak neuteče ke konkurenci</strong>.</p>
+      </div>
+    ),
   },
   {
     icon: Settings,
     title: "Nečekají vás žádné technické složitosti.",
-    text: "O veškeré nastavování a napojení na váš rezervační systém se postaráme my. Vy si pouze prohlédnete a schválíte připravené texty a design emailů. Poté už bude vašim jediným úkolem sledovat, jak naskakují nové rezervace.",
+    text: (
+      <div className="text-body text-sm leading-relaxed">
+        <p className="mb-3">O veškeré nastavování a napojení na váš rezervační systém <strong className="text-foreground font-semibold">se postaráme my</strong>.</p>
+        <p className="mb-3">Vy si pouze prohlédnete a schválíte připravené texty a design emailů.</p>
+        <p>Poté už bude vašim jediným úkolem sledovat, <strong className="text-foreground font-semibold">jak naskakují nové rezervace</strong>.</p>
+      </div>
+    ),
   },
   {
     icon: Users,
     title: "Nenaháníme cizí lidi z reklam.",
-    text: "Nepotřebujete platit drahé kampaně na Facebooku. Pomáháme vám vytěžit maximum z vaší stávající databáze – oslovujeme pouze zákazníky, kteří vás už znají a mají k vám důvěru.",
+    text: (
+      <div className="text-body text-sm leading-relaxed">
+        <p className="mb-3">Nepotřebujete platit drahé kampaně na Facebooku.</p>
+        <p>Pomáháme vám <strong className="text-foreground font-semibold">vytěžit maximum z vaší stávající databáze</strong> – oslovujeme pouze zákazníky, kteří vás už znají a mají k vám důvěru.</p>
+      </div>
+    ),
   },
 ];
 
@@ -59,7 +76,7 @@ otravný spam, technické komplikace a naštvané zákazníky.`}
                   <card.icon className="w-5 h-5 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold text-foreground">{card.title}</h3>
-                <p className="text-body text-sm leading-relaxed">{card.text}</p>
+                {typeof card.text === 'string' ? <p className="text-body text-sm leading-relaxed">{card.text}</p> : card.text}
               </div>
             </AnimatedSection>
           ))}
