@@ -52,10 +52,10 @@ const ObjectionHandling = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={100}>
-          <div className="max-w-3xl mx-auto text-lg text-muted-foreground space-y-4 text-center mt-10 mb-16">
-            <p><strong className="text-foreground font-semibold">Náš cíl je jednoduchý:</strong> Zajistit, aby se vaši klienti vraceli pravidelně, a nedopustit, abyste měli v kalendáři díry – ať už jde o stornovaný termín, nebo zkrátka jen prázdné okno, které si nikdo nevybral.</p>
-            <p>Stavíme systém, který hlídá váš rezervační systém a <strong className="text-foreground font-semibold">v pravý čas se ozve správným klientům</strong>.</p>
-            <p>Víme ale, že při slově „automatizace" si spousta barberů představí to samé: otravný spam, technické komplikace a naštvané zákazníky.</p>
+          <div className="max-w-3xl mx-auto text-lg text-muted-foreground space-y-5 text-center mt-8 mb-16">
+            <p><strong className="text-foreground font-semibold">Náš cíl je jednoduchý:</strong> Zajistit, abyste neměli v kalendáři díry – ať už po stornovaném termínu, nebo kvůli hluchým oknům.</p>
+            <p>Náš systém hlídá váš rezervační systém a <strong className="text-foreground font-semibold">v pravý čas se ozve správným klientům</strong>.</p>
+            <p>Víme ale, že slovo „automatizace" spoustu barberů děsí: představí si otravný spam, technické komplikace a naštvané zákazníky.</p>
             <p className="text-xl md:text-2xl text-foreground font-bold pt-6">Jak to tedy funguje u nás?</p>
           </div>
         </AnimatedSection>
