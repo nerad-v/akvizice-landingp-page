@@ -16,7 +16,9 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection className="text-center">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight max-w-4xl mx-auto mb-6">
-            Už jste o nás slyšeli. Teď vám ukážu, proč to našim klientům reálně funguje.
+            Už jste o nás slyšeli.{" "}
+            <br />
+            <span className="font-serif italic text-primary">Teď vám ukážu, proč to reálně funguje.</span>
           </h1>
           <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
             Kolem barbershopů se točí desítky agentur, co slibují zázraky, a vy logicky nechcete kupovat zajíce v pytli. Nedivím se vám. Dejte mi ale{" "}

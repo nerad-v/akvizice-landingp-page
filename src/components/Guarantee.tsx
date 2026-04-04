@@ -9,7 +9,9 @@ const Guarantee = () => {
             Garance výsledku
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold mt-3 mb-3">
-            Buď vám zaplníme kalendář, nebo vám vrátíme peníze!
+            Buď vám zaplníme kalendář,{" "}
+            <br />
+            <span className="font-serif italic text-primary">nebo vám vrátíme peníze!</span>
           </h2>
           <p className="text-gray-400 mb-4">
             Víme, že náš systém funguje, a proto za něj dáváme ruku do ohně.
