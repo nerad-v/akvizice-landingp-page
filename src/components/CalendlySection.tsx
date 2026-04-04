@@ -13,17 +13,17 @@ const CalendlySection = () => {
   }, []);
 
   return (
-    <section id="calendly-section" className="relative py-20 px-4 sm:px-6 overflow-hidden">
-      <div className="radial-glow w-[600px] h-[600px] top-0 left-1/2 -translate-x-1/2 -translate-y-1/4" />
+    <section id="calendly-section" className="relative py-28 sm:py-36 px-5 sm:px-8 overflow-hidden">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full pointer-events-none" style={{ background: '#398fff', opacity: 0.1, filter: 'blur(160px)' }} />
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <AnimatedSection className="text-center mb-10">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-8">
-            Zjistěte, kolik peněz{" "}
+        <AnimatedSection className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.15] mb-6">
+            Zjistěte, kolik peněz
             <br />
-            <span className="font-serif italic font-normal text-primary">vám leží v kalendáři.</span>
+            <span className="serif-italic text-primary">vám leží v kalendáři.</span>
           </h2>
-          <p className="text-gray-400">15minutový hovor. Žádná smlouva. Žádný závazek.</p>
+          <p className="text-body">15minutový hovor. Žádná smlouva. Žádný závazek.</p>
         </AnimatedSection>
 
         <AnimatedSection delay={200}>
