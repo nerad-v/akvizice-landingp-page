@@ -12,7 +12,6 @@ const Footer = () => {
         <Link to="/ochrana-udaju" className="text-muted-foreground hover:text-foreground text-xs mt-3 inline-block transition-colors">
           Zásady ochrany osobních údajů
         </Link>
-        </p>
       </div>
     </footer>
   );
