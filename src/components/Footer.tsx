@@ -12,6 +12,10 @@ const Footer = () => {
         <Link to="/ochrana-udaju" className="text-muted-foreground hover:text-foreground text-xs mt-3 inline-block transition-colors">
           Zásady ochrany osobních údajů
         </Link>
+        <p className="text-muted-foreground text-xs mt-2">
+          Používáním tohoto webu souhlasíte s používáním souborů cookies pro účely analytiky a cílení reklam.{" "}
+          <Link to="/ochrana-udaju" className="underline hover:text-foreground transition-colors">Více informací zde</Link>
+        </p>
       </div>
     </footer>
   );
