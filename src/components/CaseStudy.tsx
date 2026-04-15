@@ -1,4 +1,4 @@
-import { CalendarCheck, DollarSign, Clock, ArrowRight, Zap } from "lucide-react";
+import { CalendarCheck, DollarSign, Clock, ArrowRight, Zap, TrendingUp } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
 const CaseStudy = () => {
@@ -58,7 +58,46 @@ const CaseStudy = () => {
           </blockquote>
         </AnimatedSection>
 
-        <AnimatedSection delay={450} className="text-center mb-6 md:mb-8">
+        {/* Nextlevel — secondary case study */}
+        <AnimatedSection delay={450} className="mb-10 md:mb-16">
+          <div className="border-t border-white/10 pt-10 md:pt-14">
+            <div className="text-center mb-6 md:mb-8">
+              <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/25 rounded-full px-3 py-1 mb-5">
+                <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+                <span className="text-[11px] font-medium tracking-widest uppercase text-primary">Živá data</span>
+              </div>
+              <h3 className="text-xl md:text-2xl lg:text-3xl font-bold tracking-tight leading-tight mb-0 text-muted-foreground">
+                A to nebyla náhoda. Tady jsou živá data
+                <br />
+                <span className="serif-italic text-primary pt-1 inline-block">dalšího klienta z Prahy.</span>
+              </h3>
+            </div>
+
+            <div className="glass-card p-5 sm:p-7 md:p-9 text-center mb-3 md:mb-4 relative overflow-hidden">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full pointer-events-none" style={{ background: '#398fff', opacity: 0.08, filter: 'blur(100px)' }} />
+              <p className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-primary relative z-10">
+                47 889 Kč
+              </p>
+              <p className="text-base sm:text-lg font-semibold mt-1.5 relative z-10 text-foreground/70">navíc v tržbách.</p>
+            </div>
+
+            <div className="grid grid-cols-3 gap-3 md:gap-4">
+              {[
+                { icon: TrendingUp, value: "61", label: "rezervací z automatizací" },
+                { icon: CalendarCheck, value: "1 000", label: "kontaktů — reálná databáze je 5× větší" },
+                { icon: Clock, value: "6 týdnů", label: "od spuštění systému" },
+              ].map((stat) => (
+                <div key={stat.label} className="glass-card p-4 md:p-5 text-center">
+                  <stat.icon className="w-4 h-4 md:w-5 md:h-5 text-primary/90 mx-auto mb-1.5 md:mb-2" />
+                  <p className="text-lg md:text-xl font-bold text-foreground/90">{stat.value}</p>
+                  <p className="text-body text-xs mt-1 leading-tight">{stat.label}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={500} className="text-center mb-6 md:mb-8">
           <p className="text-lg font-medium text-foreground">Michaelův kalendář už je plný. Teď je řada na ten váš.</p>
         </AnimatedSection>
 

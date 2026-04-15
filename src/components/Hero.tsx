@@ -38,7 +38,7 @@ const Hero = () => {
         <AnimatedSection delay={200} className="w-full mb-8 md:mb-12">
           <div className="w-full aspect-video rounded-2xl overflow-hidden" style={{ border: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 0 100px rgba(57,143,255,0.08), 0 25px 50px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.05)' }}>
             <iframe
-              src="https://www.loom.com/embed/916481bf0d1a40db82d46a0a4b028382?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true"
+              src="https://www.loom.com/embed/57cd3f35a5344ac3bd1e4277c21ff167?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true"
               frameBorder="0"
               allowFullScreen
               className="w-full h-full"

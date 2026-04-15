@@ -8,8 +8,21 @@ const CalendlySection = () => {
     script.src = "https://assets.calendly.com/assets/external/widget.js";
     script.async = true;
     document.body.appendChild(script);
+
+    // Track Calendly booking in Meta pixel — fires from parent window, bypasses iframe restrictions
+    const handleCalendlyEvent = (e: MessageEvent) => {
+      if (e.origin !== "https://calendly.com") return;
+      if (e.data?.event === "calendly.event_scheduled") {
+        if (typeof window.fbq === "function") {
+          window.fbq("track", "Schedule");
+        }
+      }
+    };
+    window.addEventListener("message", handleCalendlyEvent);
+
     return () => {
       document.body.removeChild(script);
+      window.removeEventListener("message", handleCalendlyEvent);
     };
   }, []);
 
@@ -45,7 +58,7 @@ const CalendlySection = () => {
           <div className="glass-card overflow-hidden p-1 md:p-2">
             <div
               className="calendly-inline-widget"
-              data-url="https://calendly.com/nerad-boostmail/jak-na-maximalne-plny-kalendar-15-min?background_color=000000&text_color=ffffff&primary_color=398fff"
+              data-url="https://calendly.com/nerad-boostmail/jak-na-maximalne-plny-kalendar-15-min?background_color=000000&text_color=ffffff&primary_color=398fff&hide_gdpr_banner=1"
               style={{ minWidth: "320px", height: "700px" }}
             />
           </div>
