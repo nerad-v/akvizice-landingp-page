@@ -1,9 +1,13 @@
 import Header from "@/components/Header";
 import ReadingProgress from "@/components/ReadingProgress";
 import Hero from "@/components/Hero";
-import Compatibility from "@/components/Compatibility";
-import ObjectionHandling from "@/components/ObjectionHandling";
+import ProblemAgitation from "@/components/ProblemAgitation";
+import Positioning from "@/components/Positioning";
+import HowItWorks from "@/components/HowItWorks";
+import WhatSystemDoes from "@/components/WhatSystemDoes";
 import CaseStudy from "@/components/CaseStudy";
+import Compatibility from "@/components/Compatibility";
+import FAQ from "@/components/FAQ";
 import Guarantee from "@/components/Guarantee";
 import CalendlySection from "@/components/CalendlySection";
 import Footer from "@/components/Footer";
@@ -14,9 +18,13 @@ const Index = () => {
       <ReadingProgress />
       <Header />
       <Hero />
-      <Compatibility />
-      <ObjectionHandling />
+      <ProblemAgitation />
+      <Positioning />
+      <HowItWorks />
+      <WhatSystemDoes />
       <CaseStudy />
+      <Compatibility />
+      <FAQ />
       <Guarantee />
       <CalendlySection />
       <Footer />

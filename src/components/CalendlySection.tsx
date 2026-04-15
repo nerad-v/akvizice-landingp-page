@@ -28,14 +28,17 @@ const CalendlySection = () => {
 
   return (
     <section id="calendly-section" className="relative pt-10 pb-16 sm:pt-16 sm:pb-20 md:pb-28 px-5 sm:px-8 overflow-hidden">
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full pointer-events-none" style={{ background: '#398fff', opacity: 0.1, filter: 'blur(160px)' }} />
+      <div
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full pointer-events-none"
+        style={{ background: "#398fff", opacity: 0.1, filter: "blur(160px)" }}
+      />
 
       <div className="max-w-6xl mx-auto relative z-10">
         <AnimatedSection className="text-center mb-8 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight mb-4 md:mb-6">
             Zjistěte, kolik peněz
             <br />
-            <span className="serif-italic text-primary pt-2 md:pt-3 inline-block">vám leží v kalendáři.</span>
+            <span className="serif-italic text-primary pt-2 md:pt-3 inline-block">vám leží v databázi.</span>
           </h2>
           <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-10 mt-5 md:mt-8 mb-8 md:mb-12">
             <div className="flex items-center gap-2 text-foreground font-medium text-sm md:text-lg">
@@ -51,14 +54,45 @@ const CalendlySection = () => {
               <span>Žádný závazek</span>
             </div>
           </div>
+
+          {/* Call description */}
+          <div className="max-w-2xl mx-auto glass-card p-6 md:p-8 text-left mb-2">
+            <p className="text-body text-sm md:text-base leading-relaxed mb-4 md:mb-5">
+              Na tomto krátkém hovoru vám ukážu přesný postup, jak Platini Barber v Brně získal{" "}
+              <strong className="text-foreground font-semibold">31 rezervací (21 320 Kč) během prvních 14 dnů</strong>{" "}
+              bez jediné koruny za reklamu.
+            </p>
+            <div className="space-y-3">
+              <div className="flex items-start gap-3">
+                <span className="text-primary font-bold text-sm shrink-0 mt-0.5">1.</span>
+                <p className="text-body text-sm md:text-base">
+                  <strong className="text-foreground font-semibold">Analýza vaší databáze</strong> — společně zjistíme, kolik spících klientů máte a co to pro vás znamená v číslech
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-primary font-bold text-sm shrink-0 mt-0.5">2.</span>
+                <p className="text-body text-sm md:text-base">
+                  <strong className="text-foreground font-semibold">Konkrétní ukázka systému</strong> na vašem typu barbershopu
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-primary font-bold text-sm shrink-0 mt-0.5">3.</span>
+                <p className="text-body text-sm md:text-base">
+                  <strong className="text-foreground font-semibold">Odpovědi na všechny vaše otázky</strong> — bez závazku a tlaku
+                </p>
+              </div>
+            </div>
+          </div>
         </AnimatedSection>
 
         <AnimatedSection delay={200}>
-          <p className="text-sm text-muted-foreground mb-4 italic text-center">Vyberte si čas, který vám vyhovuje. Zabere to 30 sekund.</p>
+          <p className="text-sm text-muted-foreground mb-4 italic text-center">
+            Vyberte si čas, který vám vyhovuje. Zabere to 30 sekund.
+          </p>
           <div className="glass-card overflow-hidden p-1 md:p-2">
             <div
               className="calendly-inline-widget"
-              data-url="https://calendly.com/nerad-boostmail/jak-na-maximalne-plny-kalendar-15-min?background_color=000000&text_color=ffffff&primary_color=398fff&hide_gdpr_banner=1"
+              data-url="https://calendly.com/nerad-boostmail/kolik-penez-vam-lezi-v-kalendari-15-min-clone?hide_gdpr_banner=1&background_color=000000&text_color=ffffff&primary_color=1a5ada"
               style={{ minWidth: "320px", height: "700px" }}
             />
           </div>
@@ -66,13 +100,24 @@ const CalendlySection = () => {
 
         <div className="mt-6 flex justify-center w-full">
           <a
-            href="https://calendly.com/nerad-boostmail/jak-na-maximalne-plny-kalendar-15-min"
+            href="https://calendly.com/nerad-boostmail/kolik-penez-vam-lezi-v-kalendari-15-min-clone"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-all duration-300 px-5 py-2.5 rounded-full border border-border/30 hover:border-border/60 bg-muted/5 hover:bg-muted/10"
           >
             <span>Nezobrazuje se kalendář správně? Otevřít v novém okně</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-4 h-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+            >
               <path d="M15 3h6v6" />
               <path d="M10 14 21 3" />
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
