@@ -55,34 +55,6 @@ const CalendlySection = () => {
             </div>
           </div>
 
-          {/* Call description */}
-          <div className="max-w-2xl mx-auto glass-card p-6 md:p-8 text-left mb-2">
-            <p className="text-body text-sm md:text-base leading-relaxed mb-4 md:mb-5">
-              Na tomto krátkém hovoru vám ukážu přesný postup, jak Platini Barber v Brně získal{" "}
-              <strong className="text-foreground font-semibold">31 rezervací (21 320 Kč) během prvních 14 dnů</strong>{" "}
-              bez jediné koruny za reklamu.
-            </p>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <span className="text-primary font-bold text-sm shrink-0 mt-0.5">1.</span>
-                <p className="text-body text-sm md:text-base">
-                  <strong className="text-foreground font-semibold">Analýza vaší databáze</strong> — společně zjistíme, kolik spících klientů máte a co to pro vás znamená v číslech
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-primary font-bold text-sm shrink-0 mt-0.5">2.</span>
-                <p className="text-body text-sm md:text-base">
-                  <strong className="text-foreground font-semibold">Konkrétní ukázka systému</strong> na vašem typu barbershopu
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-primary font-bold text-sm shrink-0 mt-0.5">3.</span>
-                <p className="text-body text-sm md:text-base">
-                  <strong className="text-foreground font-semibold">Odpovědi na všechny vaše otázky</strong> — bez závazku a tlaku
-                </p>
-              </div>
-            </div>
-          </div>
         </AnimatedSection>
 
         <AnimatedSection delay={200}>

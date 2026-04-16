@@ -49,9 +49,9 @@ const Hero = () => {
               border: "1px solid rgba(57,143,255,0.2)",
             }}
           >
-            <span className="text-2xl md:text-3xl font-extrabold text-primary">40 %</span>
+            <span className="text-2xl md:text-3xl font-extrabold text-primary whitespace-nowrap">40 %</span>
             <span className="text-sm md:text-base text-foreground/80 text-left leading-tight">
-              klientů přijde jednou nebo dvakrát —<br className="hidden md:block" /> a pak zmizí. Jen zapomněli přijít znovu.
+              klientů přijde jednou nebo dvakrát — a pak zmizí. Jen zapomněli přijít znovu.
             </span>
           </div>
 

@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Jak rychle uvidím výsledky?",
     answer:
-      "První automatizace běží do 7 dní od spuštění. Platini Barber měl prvních 31 rezervací za 2 týdny.",
+      "Všechny automatizace běží do 7 dní od tohoto dne už můžete vidět výsledky. Platini Barber měl prvních 31 rezervací za 2 týdny.",
   },
 ];
 
@@ -66,7 +66,7 @@ const FAQItem = ({
 };
 
 const FAQ = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <section className="relative py-14 sm:py-20 md:py-28 px-5 sm:px-8 overflow-hidden">

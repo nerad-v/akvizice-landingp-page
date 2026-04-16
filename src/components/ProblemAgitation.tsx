@@ -1,28 +1,45 @@
+import { ReactNode } from "react";
 import { Calendar, Moon, Clock } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
-const problems = [
+const problems: { icon: React.ElementType; title: string; text: ReactNode }[] = [
   {
     icon: Calendar,
     title: "Storno nebo volné okno",
-    text: "Klient napíše hodinu předem, že nepřijde. Nebo máte v kalendáři okno, které nikdo nezaplnil. Výsledek: Prázdné křeslo v obou případech — a vy nemáte čas to řešit.",
+    text: (
+      <>
+        Klient napíše hodinu předem, že nepřijde. Nebo máte v kalendáři okno, které nikdo nezaplnil.{" "}
+        Výsledek: <strong className="text-foreground font-semibold">Prázdné křeslo v obou případech</strong> —
+        a vy <strong className="text-foreground font-semibold">nemáte čas to řešit</strong>.
+      </>
+    ),
   },
   {
     icon: Moon,
     title: "Spící klienti",
-    text: "Přišel jednou, dvakrát — pak nic. Nebyl nespokojený. Jen zapomněl přijít znovu.",
+    text: (
+      <>
+        Přišel jednou, dvakrát — pak nic. Nebyl nespokojený.{" "}
+        <strong className="text-foreground font-semibold">Jen zapomněl přijít znovu.</strong>
+      </>
+    ),
   },
   {
     icon: Clock,
     title: "Nepravidelné návraty",
-    text: "Ideální interval u většiny střihů jsou 3–4 týdny. Většina klientů čeká 6–8. Ten rozdíl? Klidně 3–4 návštěvy za rok, co se prostě nekonají.",
+    text: (
+      <>
+        Ideální interval u většiny střihů jsou <strong className="text-foreground font-semibold">3–4 týdny</strong>.
+        Většina klientů čeká 6–8. Ten rozdíl? Klidně{" "}
+        <strong className="text-foreground font-semibold">3–4 návštěvy za rok</strong>, co se prostě nekonají.
+      </>
+    ),
   },
 ];
 
 const ProblemAgitation = () => {
   return (
     <section className="relative py-14 sm:py-20 md:py-28 px-5 sm:px-8 overflow-hidden">
-      {/* Top divider */}
       <div className="absolute top-0 left-0 w-full h-px bg-foreground/5" />
 
       <div className="relative z-10 max-w-6xl mx-auto">

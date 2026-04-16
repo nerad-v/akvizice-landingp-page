@@ -1,28 +1,47 @@
+import { ReactNode } from "react";
 import { Zap } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
-const steps = [
+const steps: { number: string; title: string; text: ReactNode }[] = [
   {
     number: "01",
     title: "Napojení",
-    text: "Reservio, Bookio, MyFox a desítky dalších — technické napojení vyřešíme my. Vy nám dáte přístup, my se postaráme o zbytek.",
+    text: (
+      <>
+        Reservio, Bookio, MyFox a desítky dalších —{" "}
+        <strong className="text-foreground font-semibold">technické napojení vyřešíme my</strong>.
+        Vy nám dáte přístup, my se postaráme o zbytek.
+      </>
+    ),
   },
   {
     number: "02",
     title: "Nastavení",
-    text: "Schválíte texty zpráv a design, ať to přesně sedí vašemu stylu komunikace. Poté systém sám hlídá kalendář a ví, komu, kdy a co poslat.",
+    text: (
+      <>
+        Schválíte texty zpráv a design, ať to přesně sedí vašemu stylu komunikace. Poté{" "}
+        <strong className="text-foreground font-semibold">systém sám hlídá kalendář</strong> a ví,{" "}
+        <strong className="text-foreground font-semibold">komu, kdy a co poslat</strong>.
+      </>
+    ),
   },
   {
     number: "03",
     title: "Výsledky",
-    text: "Stornovaný termín? Systém do hodiny osloví klienty ze seznamu. Klient 3 měsíce pryč? Dostane připomenutí. Vy jen sledujete, jak naskakují rezervace.",
+    text: (
+      <>
+        Stornovaný termín?{" "}
+        <strong className="text-foreground font-semibold">Systém do hodiny osloví klienty</strong> ze seznamu.
+        Klient 3 měsíce pryč? Dostane připomenutí. Vy jen sledujete,{" "}
+        <strong className="text-foreground font-semibold">jak naskakují rezervace</strong>.
+      </>
+    ),
   },
 ];
 
 const HowItWorks = () => {
   return (
     <section className="relative py-14 sm:py-20 md:py-28 px-5 sm:px-8 overflow-hidden">
-      {/* Top divider */}
       <div className="absolute top-0 left-0 w-full h-px bg-foreground/5" />
 
       <div className="relative z-10 max-w-6xl mx-auto">
@@ -46,7 +65,6 @@ const HowItWorks = () => {
           {steps.map((step, i) => (
             <AnimatedSection key={step.number} delay={150 + i * 120}>
               <div className="glass-card p-6 sm:p-8 md:p-10 h-full flex flex-col gap-4 transition-all duration-300 hover:-translate-y-1">
-                {/* Step number */}
                 <div className="flex items-center gap-3 mb-1">
                   <span
                     className="text-3xl md:text-4xl font-extrabold leading-none"

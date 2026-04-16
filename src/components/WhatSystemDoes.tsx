@@ -1,23 +1,40 @@
+import { ReactNode } from "react";
 import { CalendarX, RotateCcw, Heart, Zap } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
 
-const blocks = [
+const blocks: { icon: React.ElementType; title: string; text: ReactNode; highlight: string | null }[] = [
   {
     icon: CalendarX,
     title: "Prázdná křesla",
-    text: "Stornovaný termín nebo volné okno den nebo pár hodin předem → systém automaticky osloví klienty, kteří by přišli. Platini Barber takto zachránil 31 rezervací za 2 týdny.",
-    highlight: "31 rezervací za 2 týdny",
+    text: (
+      <>
+        Stornovaný termín nebo volné okno den nebo pár hodin předem →{" "}
+        <strong className="text-foreground font-semibold">systém automaticky osloví klienty</strong>, kteří by přišli.
+      </>
+    ),
+    highlight: null,
   },
   {
     icon: RotateCcw,
     title: "Reaktivace",
-    text: "Klient byl 90 dní pryč? Dostane zprávu, která ho přiměje vzpomenout si na vás — v momentě kdy je pravděpodobně zase po střihu.",
+    text: (
+      <>
+        Klient byl 90 dní pryč? Dostane zprávu, která ho přiměje vzpomenout si na vás —{" "}
+        <strong className="text-foreground font-semibold">v momentě kdy je pravděpodobně zase po střihu</strong>.
+      </>
+    ),
     highlight: null,
   },
   {
     icon: Heart,
     title: "Návratnost",
-    text: "Personalizovaná zpráva po střihu, tip na péči o vousy, připomenutí ideálního intervalu. Zákazník cítí péči — a příště se vrátí k vám.",
+    text: (
+      <>
+        Personalizovaná zpráva po střihu,{" "}
+        <strong className="text-foreground font-semibold">tip na péči o vousy</strong>, připomenutí ideálního intervalu.{" "}
+        <strong className="text-foreground font-semibold">Zákazník cítí péči</strong> — a příště se vrátí k vám.
+      </>
+    ),
     highlight: null,
   },
 ];
@@ -25,7 +42,6 @@ const blocks = [
 const WhatSystemDoes = () => {
   return (
     <section className="relative py-14 sm:py-20 md:py-28 px-5 sm:px-8 overflow-hidden">
-      {/* Radial glow */}
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] rounded-full pointer-events-none"
         style={{ background: "#398fff", opacity: 0.07, filter: "blur(140px)" }}

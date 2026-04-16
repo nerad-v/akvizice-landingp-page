@@ -35,7 +35,7 @@ const Positioning = () => {
 
         <AnimatedSection delay={150}>
           <div className="glass-card p-7 sm:p-10 md:p-14 max-w-4xl mx-auto">
-            <div className="text-body text-base md:text-lg leading-relaxed space-y-4 md:space-y-5 mb-10 md:mb-12">
+            <div className="text-body text-base md:text-lg leading-relaxed space-y-4 md:space-y-5 mb-10 md:mb-12 text-center">
               <p>
                 Boostmail se napojí na váš rezervační systém a automaticky se ozve správným lidem ve
                 správný čas — bez reklam, bez slevových akcí, bez toho abyste cokoliv dělali.
