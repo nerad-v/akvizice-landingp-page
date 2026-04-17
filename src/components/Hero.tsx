@@ -67,7 +67,7 @@ const Hero = () => {
         <AnimatedSection delay={300} className="flex flex-col items-center">
           <div className="flex flex-col sm:flex-row items-center gap-4 mb-4 md:mb-5">
             <a
-              href="#calendly-section"
+              href="#kontakt-section"
               className="neon-button px-6 py-3 text-sm md:text-base md:px-8 md:py-4"
             >
               <span>Zjistěte, kolik peněz vám leží v databázi</span>

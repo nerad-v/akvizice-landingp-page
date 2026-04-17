@@ -102,7 +102,7 @@ const CaseStudy = () => {
         </AnimatedSection>
 
         <AnimatedSection delay={500} className="flex flex-col items-center">
-          <a href="#calendly-section" className="neon-button px-6 py-3 text-sm md:text-base md:px-8 md:py-4 max-w-xs md:max-w-none">
+          <a href="#kontakt-section" className="neon-button px-6 py-3 text-sm md:text-base md:px-8 md:py-4 max-w-xs md:max-w-none">
             <span>Zjistěte co to přinese vašemu barbershopu</span>
             <ArrowRight className="w-4 h-4" />
           </a>

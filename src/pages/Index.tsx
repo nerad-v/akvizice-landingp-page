@@ -9,7 +9,7 @@ import CaseStudy from "@/components/CaseStudy";
 import Compatibility from "@/components/Compatibility";
 import FAQ from "@/components/FAQ";
 import Guarantee from "@/components/Guarantee";
-import CalendlySection from "@/components/CalendlySection";
+import LeadFormSection from "@/components/LeadFormSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -26,7 +26,7 @@ const Index = () => {
       <Compatibility />
       <FAQ />
       <Guarantee />
-      <CalendlySection />
+      <LeadFormSection />
       <Footer />
     </div>
   );

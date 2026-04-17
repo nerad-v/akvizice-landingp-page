@@ -24,10 +24,16 @@ const Privacy = () => {
             <h2 className="text-lg font-semibold text-foreground mb-2">2. Jaké údaje zpracováváme a proč?</h2>
             <ul className="list-disc pl-5 space-y-2">
               <li>
-                <strong className="text-foreground">Rezervace schůzky (Calendly):</strong> Zpracováváme vaše jméno, e-mail a telefonní číslo. Tyto údaje používáme výhradně k tomu, abychom s vámi mohli domluvit a realizovat konzultaci.
+                <strong className="text-foreground">Kontaktní formulář:</strong> Zpracováváme vaše jméno, název barbershopu, používaný rezervační systém a telefonní číslo. Tyto údaje používáme výhradně k tomu, abychom vás mohli kontaktovat a domluvit konzultaci. Formulář doručujeme e-mailem prostřednictvím služby Web3Forms (Web3Forms Technologies, USA).
               </li>
               <li>
-                <strong className="text-foreground">Marketing a analytika (Meta Pixel):</strong> Na webu používáme cookies třetích stran (Meta Platforms, Inc.) pro měření návštěvnosti a efektivitu našich reklam. Díky tomu vám můžeme zobrazovat relevantní video obsah na Facebooku a Instagramu.
+                <strong className="text-foreground">Formuláře v reklamách (Meta Lead Ads):</strong> Pokud vyplníte formulář přímo v reklamě na Facebooku či Instagramu, zpracováváme stejné údaje jako u webového formuláře. Data nám předává společnost Meta Platforms, Inc.
+              </li>
+              <li>
+                <strong className="text-foreground">Marketing a reklama (Meta Pixel):</strong> Na webu používáme cookies třetích stran (Meta Platforms, Inc.) pro měření návštěvnosti a efektivitu našich reklam. Díky tomu vám můžeme zobrazovat relevantní obsah na Facebooku a Instagramu.
+              </li>
+              <li>
+                <strong className="text-foreground">Analytika chování (Microsoft Clarity):</strong> Pro zlepšování webu používáme službu Microsoft Clarity (Microsoft Corporation), která anonymně zaznamenává pohyb myši, kliky a scrollování. Nezaznamenávají se texty, které zadáváte do formulářů. Data slouží výhradně k pochopení toho, jak návštěvníci web používají.
               </li>
             </ul>
           </section>
@@ -35,7 +41,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-lg font-semibold text-foreground mb-2">3. Zabezpečení a sdílení dat</h2>
             <p>
-              Vaše údaje jsou u nás v naprostém bezpečí. Nikdy je neprodáváme ani neposkytujeme třetím stranám pro jejich marketingové účely. Data jsou zpracovávána pouze v rámci ověřených platforem (Calendly, Meta, Google).
+              Vaše údaje jsou u nás v bezpečí. Nikdy je neprodáváme ani neposkytujeme třetím stranám pro jejich marketingové účely. Data zpracováváme pouze v rámci ověřených platforem (Web3Forms, Meta, Microsoft, Google), které samy splňují standardy GDPR. Kontaktní údaje uchováváme maximálně 12 měsíců od posledního kontaktu, poté je mažeme.
             </p>
           </section>
 

@@ -8,7 +8,7 @@ const Header = () => {
         <a href="#" className="flex-shrink-0">
           <img src={logo} alt="Boostware" className="h-6 w-auto opacity-90 hover:opacity-100 transition-opacity duration-200" />
         </a>
-        <a href="#calendly-section" className="ghost-button text-sm">
+        <a href="#kontakt-section" className="ghost-button text-sm">
           <span>Ukázka systému zdarma</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </a>
